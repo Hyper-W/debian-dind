@@ -1,0 +1,7 @@
+services:
+  debian-dind:
+    build:
+      context: .
+    container_name: debian-dind
+    image: debian-dind
+    privileged: true
